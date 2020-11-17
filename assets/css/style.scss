@@ -15,15 +15,56 @@ body {
 	//   font-family: "Roboto", sans-serif;
 	font-family: "Montserrat", sans-serif;
 }
+
 .transition-fade {
+	-webkit-transition: 0.4s;
 	transition: 0.4s;
+	transition-timing-function: ease-in-out;
 	opacity: 1;
+	// position: relative;
+  }
+  .loading{
+	position: absolute;
+    top: 50vh;
+    left: 40%;
+    font-size: 40px;
+    right: 0;
+    z-index: 999;
+	font-weight: bold;
+	display: none;
+	opacity: 0;
+  }
+  html.is-animating .loading{
+	  display: block;
+	transition: all 1s linear;
+
+	  opacity: 1;
   }
   
   html.is-animating .transition-fade {
 	opacity: 0;
+	  transform: translateY(20%);
+	  transition: 0.8s;
+  
   }
-
+  html.is-changing .transition-fade {
+		/* transform: translateY(10%); */
+	  /* transition: 1s; */
+	  opacity: 0.8;
+	
+	}
+	/* html.is-rendering .transition-fade {
+	  opacity: 1;
+	  transition: 1s;
+  
+		transform: translateY(0%);
+	
+	} */
+  html.is-leaving .transition-fade{
+	  transform: translateY(20%);
+	  transition: 0.8s;
+  opacity: 0;
+  }
 // links
 
 a:hover {
