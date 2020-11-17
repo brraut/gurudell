@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Service</title>
+    <title>Home</title>
 
     <link
       rel="stylesheet"
@@ -33,6 +33,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
     <header>
       <div class="top_color"></div>
@@ -40,6 +41,7 @@
         <div class="logo_container">
           <img src="assets/images/logo.png" alt="" />
         </div>
+      <div class="d-flex">
         <div class="topbar_links_container">
           <div class="topbar_links">
             <div class="icon_container">
@@ -73,8 +75,9 @@
           <a href="" data-toggle="modal" data-target="#top_btn"> Get Quote </a>
         </div>
         <div class="menu_burger">
-          <a onclick="openNav()"><i class="fas fa-bars"></i></a>
+          <a id="ham-bar"  onclick="openNav()"><i class="fas fa-bars"></i></a>
         </div>
+      </div>
       </div>
     </header>
 
@@ -159,7 +162,7 @@
       </div>
     </div>
 
-   <nav>
+    <nav>
       <div class="navbar_container">
         <div class="navigation_links">
           <ul>
@@ -172,7 +175,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-       <div class="social_links">
+        <div class="social_links">
           <ul>
             <li>
               <a href=""><i class="fab fa-linkedin"></i></a>
@@ -207,6 +210,7 @@
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
     </div>
+
 
     <main class="service_detail">
       <section class="service_banner_container">
@@ -428,38 +432,38 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="review_form">
-              <form action="">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Your Name *"
-                  />
+              <div class="review_form">
+                <form action="">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name *"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input type="file" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      name=""
+                      class="form-control"
+                      id=""
+                      cols="30"
+                      rows="3"
+                      placeholder="Your review message *"
+                    ></textarea>
+                  </div>
+                </form>
+                <div class="star">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                  <span>Very Good</span>
                 </div>
-                <div class="form-group">
-                  <input type="file" class="form-control" />
+                <div class="review_btn">
+                  <a href="">Submit Review</a>
                 </div>
-                <div class="form-group">
-                  <textarea
-                    name=""
-                    class="form-control"
-                    id=""
-                    cols="30"
-                    rows="3"
-                    placeholder="Your review message *"
-                  ></textarea>
-                </div>
-              </form>
-              <div class="star">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i>
-                <span>Very Good</span>
-              </div>
-              <div class="review_btn">
-                <a href="">Submit Review</a>
               </div>
             </div>
           </div>
@@ -490,7 +494,6 @@
                     <div class="trips_details_para">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Tenetur molestias quos rem blanditiis nemo corrupti sequi
-                      nesciunt nam eveniet qui!
                     </div>
                   </div>
                 </div>
@@ -503,11 +506,10 @@
                     <i class="fas fa-desktop"></i>
                   </div>
                   <div class="trips_details">
-                    <div class="trips_details_header">Desktop Repair</div>
+                    <div class="trips_details_header">Diagnosis & Solve Issues</div>
                     <div class="trips_details_para">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Tenetur molestias quos rem blanditiis nemo corrupti sequi
-                      nesciunt nam eveniet qui!
                     </div>
                   </div>
                 </div>
@@ -520,11 +522,11 @@
                     <i class="fas fa-server"></i>
                   </div>
                   <div class="trips_details">
-                    <div class="trips_details_header">Server Repair</div>
+                    <div class="trips_details_header">Return Perfect Devices</div>
                     <div class="trips_details_para">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Tenetur molestias quos rem blanditiis nemo corrupti sequi
-                      nesciunt nam eveniet qui!
+                      
                     </div>
                   </div>
                 </div>
@@ -974,7 +976,7 @@
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                     <div class="recent-btn">
-                      <a href="">Readmore</a>
+                      <a href="">Readmore &nbsp; <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -987,7 +989,7 @@
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                     <div class="recent-btn">
-                      <a href="">Readmore</a>
+                      <a href="">Readmore &nbsp; <i class="fa fa-arrow-right"></i> </a>
                     </div>
                   </div>
                 </div>
@@ -1000,11 +1002,11 @@
 
               <div class="info">
                 <ul>
-                  <li><i class="fas fa-envelope"></i>info@guru.com</li>
-                  <li><i class="fas fa-phone-alt"></i>+977-01-45367283</li>
+                  <li><i class="fas fa-envelope"></i><span>info@guru.com</span></li>
+                  <li><i class="fas fa-phone-alt"></i><span>+977-01-45367283</span></li>
 
                   <li>
-                    <i class="fas fa-home"></i> New Baneshwor, Kathmandu Nepal
+                    <i class="fas fa-home"></i> <span>New Baneshwor, Kathmandu Nepal</span>
                   </li>
                 </ul>
               </div>
@@ -1043,7 +1045,6 @@
       </div>
       <a id="button"><i class="fas fa-chevron-up"></i></a>
     </footer>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
       integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="

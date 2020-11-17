@@ -125,7 +125,7 @@ header .topbar .topbar_links_container .topbar_links .icon_container i {
 header .topbar .topbar_links_container .topbar_links .text_container .header {
   font-weight: 600;
   font-size: 16px;
-  color: #717171;
+  color: #5e5d5d;
 }
 
 header .topbar .topbar_links_container .topbar_links .text_container .text {
@@ -227,14 +227,14 @@ nav .navbar_container .navigation_links ul {
 }
 
 nav .navbar_container .navigation_links ul li {
-  padding: 10px 0px;
+  padding: 16px 0px;
 }
 
 nav .navbar_container .navigation_links ul a {
-  padding: 0px 15px;
+  padding: 0px 18px;
   border-right: 1px double #5678bc;
   color: #43c3ea;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -245,7 +245,7 @@ nav .navbar_container .navigation_links ul a:hover {
 nav .navbar_container .navigation_links ul .active {
   background-color: #43c3ea;
   color: white;
-  padding: 17px 15px 16px;
+  padding: 18px 15px 19px;
 }
 
 nav .navbar_container .social_links ul {
@@ -258,7 +258,7 @@ nav .navbar_container .social_links ul {
 }
 
 nav .navbar_container .social_links ul li {
-  padding: 10px 0px;
+  padding: 13px 0px;
 }
 
 nav .navbar_container .social_links ul li a {
@@ -1482,7 +1482,7 @@ footer #button.show {
 }
 
 .category .category_banner_container .category_header .header {
-  font-size: 30px;
+  font-size: 36px;
   margin: 20px 0px 10px 0px;
   text-transform: uppercase;
   color: #ffffff;
@@ -1492,11 +1492,14 @@ footer #button.show {
 .category .category_banner_container .category_header .sub_header {
   color: #2d2d2d;
   color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .category .category_banner_container .search-container {
   position: relative;
   z-index: 3;
+  margin-top: -45px;
   padding-bottom: 40px;
   margin-right: 40px;
   display: -webkit-box;
@@ -1528,6 +1531,8 @@ footer #button.show {
 .category .category_banner_container .search-container .category-bread ul li a {
   color: #fff;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .category .category_banner_container .search-container .category-bread ul li .active {
@@ -1535,12 +1540,12 @@ footer #button.show {
 }
 
 .category .category_banner_container .search-container .search input {
-  padding: 10px 20px;
+  padding: 7px 45px;
   border-radius: 25px;
   border: none;
   color: #142340;
-  background-color: #f0eded99;
-  font-size: 18px;
+  background-color: #f0ededc2;
+  font-size: 16px;
 }
 
 .category .category_banner_container .search-container .search input:focus {
@@ -1574,8 +1579,8 @@ footer #button.show {
 }
 
 .category .category_products .products {
-  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
-          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  -webkit-box-shadow: 0 0 25px 0 #4e495640;
+          box-shadow: 0 0 25px 0 #4e495640;
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
@@ -1593,27 +1598,30 @@ footer #button.show {
 }
 
 .category .category_products .products .header {
-  margin: 20px;
+  margin: 30px 30px 15px 30px;
   color: #034a6a;
   font-size: 22px;
   font-weight: bold;
 }
 
 .category .category_products .products .para {
-  margin: 0px 20px;
+  margin: 0px 30px;
   text-align: justify;
   color: #2d2d2d;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .category .category_products .products .product-btn {
   text-align: right;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .category .category_products .products .product-btn span {
   background-color: #333333;
   color: white;
   padding: 10px 15px;
+  font-size: 22px;
 }
 
 .category .category_products .product_btn {
@@ -1623,10 +1631,28 @@ footer #button.show {
 
 .category .category_products .product_btn a {
   text-transform: uppercase;
+  line-height: 46px;
+  display: inline-block;
   color: #43c3ea;
-  border: 1px solid #43c3ea;
+  border: 1px solid #25b4df;
   border-radius: 5px;
-  padding: 10px 100px;
+  padding: 0px 80px;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category .category_products .product_btn a i {
+  font-size: 30px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .category .category_products .product_btn a:hover {
@@ -1642,15 +1668,33 @@ footer #button.show {
   text-align: center;
   position: relative;
   z-index: 3;
-  padding: 50px 0px;
+  padding: 60px 0px;
 }
 
 .category .product_banner_container .product_header .top_btn a {
   background-color: #72ae26;
-  padding: 3px 20px;
+  padding: 5px 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 20px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.category .product_banner_container .product_header .top_btn a::before {
+  position: absolute;
+  bottom: -8px;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #72ae26;
 }
 
 .category .product_banner_container .product_header .header {
@@ -1689,7 +1733,11 @@ footer #button.show {
 }
 
 .category .products_container {
-  margin: 50px 30px 100px;
+  margin: 50px 30px 90px 30px;
+}
+
+.category .products_container .flip-box {
+  margin: 20px auto;
 }
 
 .category .products_container .product_1 {
@@ -1716,8 +1764,66 @@ footer #button.show {
 .category .products_container .product_1 .text {
   text-align: center;
   color: #034a6a;
-  font-size: 24px;
+  font-size: 22px;
   padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.category .products_container .product_1_back {
+  padding: 30px;
+}
+
+.category .products_container .product_1_back .product_1_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category .products_container .product_1_back .img-container {
+  height: 80px;
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.category .products_container .product_1_back .img-container img {
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.category .products_container .product_1_back .product_1_details_header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.category .products_container .product_1_back .product_1_description {
+  text-align: left;
+  font-size: 16px;
+  margin: 15px auto 20px auto;
+}
+
+.category .products_container .product_1_back .button-container {
+  text-align: right;
+}
+
+.category .products_container .product_1_back .button-container a {
+  color: white;
+}
+
+.category .products_container .product_1:hover .image_container {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.category .products_container .product_1:hover .image_container img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
 .category .products_container .product_btn {
@@ -1730,12 +1836,27 @@ footer #button.show {
   color: #43c3ea;
   border: 1px solid #43c3ea;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 12px 30px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .category .products_container .product_btn a:hover {
   background-color: #43c3ea;
   color: #fff;
+}
+
+.category .products_container:hover .flip-box-back {
+  margin: -30px;
+  width: 120%;
+  height: 120%;
+}
+
+@media (max-width: 768px) {
+  .category .products_container .product_btn a {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
 }
 
 .service_detail .service_banner_container {
@@ -1768,7 +1889,7 @@ footer #button.show {
 }
 
 .service_detail .service_banner_container .service_header .header {
-  font-size: 45px;
+  font-size: 52px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
@@ -1777,19 +1898,20 @@ footer #button.show {
 .service_detail .service_banner_container .service_header .sub_header {
   color: #7cdbf8;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .service_detail .service_banner_container .service_header .btn a {
   background-color: #ff7700;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 12px 30px;
   display: inline-block;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 30px;
+  font-weight: 600;
   border-radius: 5px;
 }
 
@@ -1854,7 +1976,7 @@ footer #button.show {
 }
 
 .service_detail .overview_container .overview .header {
-  font-size: 25px;
+  font-size: 30px;
   color: #2e2751;
   text-transform: uppercase;
   font-weight: 600;
@@ -1864,6 +1986,7 @@ footer #button.show {
 .service_detail .overview_container .overview .text {
   font-size: 15px;
   line-height: 1.7;
+  font-weight: 500;
 }
 
 .service_detail .overview_container .overview .sub_header {
@@ -1889,8 +2012,8 @@ footer #button.show {
 }
 
 .service_detail .overview_container .review {
-  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
-          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  -webkit-box-shadow: 0 0px 12px 0 #5e596640;
+          box-shadow: 0 0px 12px 0 #5e596640;
   padding: 20px;
   border-radius: 5px;
 }
@@ -1930,7 +2053,7 @@ footer #button.show {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fe7d0c;
+  background: linear-gradient(14deg, #fe7d0c, #f2ac70);
   color: #ffffff;
   border-radius: 5px;
   padding: 9px;
@@ -1970,12 +2093,20 @@ footer #button.show {
 }
 
 .service_detail .overview_container .review_form {
-  -webkit-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
-          box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
+  margin: 30px -20px -20px;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
   background-color: #f5f7f8;
+}
+
+.service_detail .overview_container .review_form .form-control {
+  font-size: 12px;
+  height: calc(1.5em + 0.75rem + 10px);
+}
+
+.service_detail .overview_container .review_form textarea.form-control {
+  height: 90px;
 }
 
 .service_detail .overview_container .review_form .star {
@@ -2016,10 +2147,28 @@ footer #button.show {
 
 .service_detail .process_container .process_header .top_btn a {
   background-color: #72ae26;
-  padding: 3px 20px;
+  padding: 5px 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 20px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.service_detail .process_container .process_header .top_btn a::before {
+  position: absolute;
+  bottom: -8px;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #72ae26;
 }
 
 .service_detail .process_container .process_header .header {
@@ -2038,7 +2187,7 @@ footer #button.show {
 
 .service_detail .process_container .process_box_container .service_1 {
   padding: 30px;
-  height: 390px;
+  height: 320px;
   text-align: -webkit-center;
   text-align: -moz-center;
   background-color: white;
@@ -2068,11 +2217,16 @@ footer #button.show {
 }
 
 .service_detail .process_container .process_box_container .service_1 .trips_details .trips_details_header {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   line-height: 1.3;
   color: #333333;
   margin-bottom: 20px;
+}
+
+.service_detail .process_container .process_box_container .service_1 .trips_details_para {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .service_detail .services_container {
@@ -2082,10 +2236,28 @@ footer #button.show {
 
 .service_detail .services_container .services_header .top_btn a {
   background-color: #72ae26;
-  padding: 3px 20px;
+  padding: 5px 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 20px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.service_detail .services_container .services_header .top_btn a::before {
+  position: absolute;
+  bottom: -8px;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #72ae26;
 }
 
 .service_detail .services_container .services_header .header {
@@ -2132,12 +2304,32 @@ footer #button.show {
 }
 
 .service_detail .services_container .services_box_container .service_1 .trips_details .trips_details_header {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   line-height: 1.3;
   color: #2e2751;
   margin-bottom: 10px;
   text-transform: capitalize;
+}
+
+.service_detail .services_container .services_box_container .service_1 .trips_details .trips_details_para {
+  font-weight: 600;
+}
+
+.service_detail .services_container .services_box_container .service_1:hover {
+  background-color: #72ae26;
+}
+
+.service_detail .services_container .services_box_container .service_1:hover .trips_icon i {
+  color: white;
+}
+
+.service_detail .services_container .services_box_container .service_1:hover .trips_details .trips_details_header {
+  color: white;
+}
+
+.service_detail .services_container .services_box_container .service_1:hover .trips_details .trips_details_para {
+  color: white;
 }
 
 .service_detail .related_container {
@@ -2148,14 +2340,32 @@ footer #button.show {
 
 .service_detail .related_container .related_header .top_btn a {
   background-color: #72ae26;
-  padding: 3px 40px;
+  padding: 5px 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 20px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.service_detail .related_container .related_header .top_btn a::before {
+  position: absolute;
+  bottom: -8px;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #72ae26;
 }
 
 .service_detail .related_container .related_header .header {
-  font-size: 25px;
+  font-size: 30px;
   margin: 20px 0px;
   color: #2e2751;
   text-transform: uppercase;
@@ -2193,10 +2403,10 @@ footer #button.show {
 .service_detail .related_container .product_1 .text {
   text-align: center;
   color: #034a6a;
-  font-size: 13px;
+  font-size: 18px;
   padding: 0px 3px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .service_detail .testimonial_container {
@@ -2210,14 +2420,32 @@ footer #button.show {
 
 .service_detail .testimonial_container .testi_header .top_btn a {
   background-color: #72ae26;
-  padding: 3px 20px;
+  padding: 5px 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
   color: #ffffff;
   border-radius: 20px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.service_detail .testimonial_container .testi_header .top_btn a::before {
+  position: absolute;
+  bottom: -8px;
+  z-index: 1;
+  left: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 0;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: #72ae26;
 }
 
 .service_detail .testimonial_container .testi_header .header {
-  font-size: 25px;
+  font-size: 30px;
   margin: 20px 0px;
   color: #2e2751;
   text-transform: uppercase;

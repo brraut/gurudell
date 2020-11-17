@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Category</title>
+    <title>Home</title>
 
     <link
       rel="stylesheet"
@@ -24,7 +24,6 @@
       integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
@@ -42,6 +41,7 @@
         <div class="logo_container">
           <img src="assets/images/logo.png" alt="" />
         </div>
+      <div class="d-flex">
         <div class="topbar_links_container">
           <div class="topbar_links">
             <div class="icon_container">
@@ -75,8 +75,9 @@
           <a href="" data-toggle="modal" data-target="#top_btn"> Get Quote </a>
         </div>
         <div class="menu_burger">
-          <a onclick="openNav()"><i class="fas fa-bars"></i></a>
+          <a id="ham-bar"  onclick="openNav()"><i class="fas fa-bars"></i></a>
         </div>
+      </div>
       </div>
     </header>
 
@@ -161,7 +162,7 @@
       </div>
     </div>
 
-  <nav>
+    <nav>
       <div class="navbar_container">
         <div class="navigation_links">
           <ul>
@@ -174,7 +175,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-       <div class="social_links">
+        <div class="social_links">
           <ul>
             <li>
               <a href=""><i class="fab fa-linkedin"></i></a>
@@ -222,8 +223,8 @@
         <div class="search-container">
           <div class="category-bread">
             <ul>
-              <li><a href="">Home /</a></li>
-              <li><a href="">Service /</a></li>
+              <li><a href="">Home &nbsp;>></a></li>
+              <li><a href="">Service &nbsp; >></a></li>
               <li><a class="active" href="">Laptop Repair</a></li>
             </ul>
           </div>
@@ -389,7 +390,7 @@
           </div>
         </div>
         <div class="product_btn">
-          <a href=""><i class="fas fa-sync-alt"></i> Load More...</a>
+          <a href=""><i class="fas fa-sync-alt"></i><span> Load More...</span></a>
         </div>
       </section>
 
@@ -410,84 +411,286 @@
       <section class="products_container">
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p1.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p1.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">PROCESSOR</div>
+                  </div>
                 </div>
-                <div class="text">PROCESSOR (CPU)</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p1.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        PROCESSOR
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+           
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p2.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p2.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">RAM</div>
+                  </div>
                 </div>
-                <div class="text">RAM</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p2.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        RAM
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+          
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p1.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p4.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">HARD DRIVE</div>
+                  </div>
                 </div>
-                <div class="text">Hard Drive</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p4.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        HARD DRIVE
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p4.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p2.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">SOLID STATE DRIVE</div>
+                  </div>
                 </div>
-                <div class="text">Solid State Drive</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p4.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        SOLID STATE DRIVE
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p6.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p6.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">INTERNAL SPEAKER</div>
+                  </div>
                 </div>
-                <div class="text">Internal Speaker</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p6.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        INTERNAL SPEAKER
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p3.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p3.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">Touchpad</div>
+                  </div>
                 </div>
-                <div class="text">Touchpad</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p3.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        Touchpad
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p7.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p7.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">Battery</div>
+                  </div>
                 </div>
-                <div class="text">Battery</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p7.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        Battery
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
-            <a href="">
-              <div class="product_1">
-                <div class="image_container">
-                  <img src="assets/images/p5.png" class="img-fluid" alt="" />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <div class="product_1">
+                    <div class="image_container">
+                      <img src="assets/images/p5.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">Screen</div>
+                  </div>
                 </div>
-                <div class="text">Screen</div>
+                <div class="flip-box-back">
+                  <div class="product_1_back">
+                   
+                    <div class="product_1_details">
+                      <div class="img-container">
+                        <img src="assets/images/p5.png" class="img-fluid" alt="">
+                      </div>
+
+                      <div class="product_1_details_header">
+                        Screen
+                      </div>     
+                      </div>
+                      <div class="product_1_description">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.  Fugit, asperiores! Aliquam tempora molestiae ex modi officiis asperiores sequi deserunt distinctio quia, 
+                      </div>
+                      <div class="button-container">
+                        <a href="">Enquiry Now <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 
@@ -547,7 +750,7 @@
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                     <div class="recent-btn">
-                      <a href="">Readmore</a>
+                      <a href="">Readmore &nbsp; <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -560,7 +763,7 @@
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </div>
                     <div class="recent-btn">
-                      <a href="">Readmore</a>
+                      <a href="">Readmore &nbsp; <i class="fa fa-arrow-right"></i> </a>
                     </div>
                   </div>
                 </div>
@@ -573,11 +776,11 @@
 
               <div class="info">
                 <ul>
-                  <li><i class="fas fa-envelope"></i>info@guru.com</li>
-                  <li><i class="fas fa-phone-alt"></i>+977-01-45367283</li>
+                  <li><i class="fas fa-envelope"></i><span>info@guru.com</span></li>
+                  <li><i class="fas fa-phone-alt"></i><span>+977-01-45367283</span></li>
 
                   <li>
-                    <i class="fas fa-home"></i> New Baneshwor, Kathmandu Nepal
+                    <i class="fas fa-home"></i> <span>New Baneshwor, Kathmandu Nepal</span>
                   </li>
                 </ul>
               </div>
